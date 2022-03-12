@@ -1,9 +1,9 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Container from "../components/Container";
 import DonutChart from "../components/donutchart/DonutChart";
 import Relatory from "../components/Relatory";
 import espData from "../data/ESPData";
-import Styles from "./Home.module.css"
+import Styles from "./Home.module.css";
 
 export default function Home() {
   const [irrigRel, setIrrigRel] = useState([]);
