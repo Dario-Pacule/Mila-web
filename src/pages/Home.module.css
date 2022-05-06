@@ -28,6 +28,11 @@
   color: #2bb673;
 }
 
+.card_home span {
+  display: block;
+  text-align: center;
+}
+
 .top {
   position: fixed;
   width: 85%;

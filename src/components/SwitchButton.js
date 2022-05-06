@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Styles from "./SwitchButton.module.css"
+import Styles from "./SwitchButton.module.css";
 
 export default function SwitchButton({ espURL }) {
   const [switchStatus, setSwitchStatus] = useState(true);

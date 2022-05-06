@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Container from '../components/Container';
 import SwitchButton from '../components/SwitchButton';
-import Styles from "./Config.module.css"
+import Styles from "./Config.module.css";
 
 
 export default function Config() {

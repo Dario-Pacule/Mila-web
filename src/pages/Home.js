@@ -62,7 +62,7 @@ export default function Home() {
       <div className={Styles.top}>
         <div className={Styles.card_home}>
           <DonutChart level={level} />
-          <h3>Humidade do solo</h3>
+          <h3>Humidade do solo {"(" + level + "%)"}</h3>
         </div>
         <div className={Styles.card_home}>
           <p>{espRtcTime}</p>

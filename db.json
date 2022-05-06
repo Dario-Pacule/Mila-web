@@ -1,5 +1,13 @@
 {
-  "relatory": [],
+  "relatory": [
+    {
+      "id": 1,
+      "Data": "24/3/2022",
+      "time": "12:37",
+      "duration": "0",
+      "type": "TimeProgramed"
+    }
+  ],
   "operations": [
     {
       "id": "serverIP",
@@ -7,14 +15,14 @@
     },
     {
       "id": "sensor",
-      "sensorlevel": "1233"
+      "sensorlevel": "50"
     },
     {
       "id": "1",
-      "operation": "Irrigacao",
-      "time": "13:54",
+      "operation": "Pulverizacao",
+      "time": "12:32",
       "configtype": "1",
-      "duration": ""
+      "duration": "29"
     },
     {
       "id": "2",
